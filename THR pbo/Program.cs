@@ -86,5 +86,7 @@ class Program
         Console.Write("Masukkan gaji pokok: ");
         karyawanMagang._gaji_pokok = Convert.ToDouble(Console.ReadLine());
         Console.WriteLine($"Gaji akhir: {karyawanMagang.hitungGaji()}");
+
+        Console.WriteLine("Terima Kasih");
     }
 }
